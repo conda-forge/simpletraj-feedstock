@@ -24,11 +24,14 @@ requirements:
     - numpy
   run:
     - python
+    - pip
     - {{ pin_compatible('numpy') }}
 
 test:
   imports:
     - simpletraj
+  commands:
+    - pip check
 
 about:
   home: https://github.com/arose/simpletraj

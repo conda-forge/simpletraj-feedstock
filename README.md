@@ -3,7 +3,7 @@ About simpletraj
 
 Home: https://github.com/arose/simpletraj
 
-Package license: GPL-2.0
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/simpletraj-feedstock/blob/master/LICENSE.txt)
 

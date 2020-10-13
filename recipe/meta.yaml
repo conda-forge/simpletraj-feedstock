@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1003
+  number: 1004
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   skip: True  # [win]
 
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/arose/simpletraj
-  license: GPL-2.0
+  license: GPL-2.0-only
   license_family: GPL
   license_file: LICENSE
   summary: 'Lightweight coordinate-only trajectory reader based on code from GROMACS, MDAnalysis, VMD.'

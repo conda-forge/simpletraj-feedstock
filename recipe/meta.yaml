@@ -11,16 +11,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1008
+  number: 1009
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   skip: True  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
+    - setuptools
     - numpy
   run:
     - python
